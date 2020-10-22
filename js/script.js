@@ -8,6 +8,7 @@ $(document).ready(function () {
 		slidesToScroll: 1,
 		arrows: false,
 		fade: true,
+		swipe: false,
 		asNavFor: '.slider-nav'
 	});
 	$('.slider-nav').slick({
